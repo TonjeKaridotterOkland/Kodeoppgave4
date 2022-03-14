@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kortspill</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      
+        <div class="main">
+            <h5 id="show-counter">Runde ikke startet ennå</h5>
+        <button id="button" onclick="showNumbers()">Trekk kort</button>
+        <br>
+            <div>
+                <h4 id="premiebunke"></h4>
+                <div id="premiebunke-tall"></div>
+            </div>
+            <div>
+                <h4 id="player-one"></h4>
+                <div id="player-one-card"> </div>
+            </div>
+            <div>
+                <h4 id="player-two"></h4>
+                <div id="player-two-card"> </div>
+            </div>
+          
+            <div id="show-score"></div>
+        </div>
+    </body>
+    <script src="cardgame.js"></script>
+</html>
